@@ -39,29 +39,29 @@ The provided csv. files comprise 2019 data of Airbnb listings available in Lisbo
 
 This [Trello board](https://trello.com/b/DUtscQkn/ironhack-midproject) provides access to the project's workflow, detailing all tasks developed over the three-week period.
 
-#### *Data Visualizations* 📊
+#### *Tableau dashboards* 📊
 
-After applying data preparation and cleaning techniques in a Python notebook I developed Tableau dashboards to provide the audience with a clear and straighforward overview of insightful aspects related to our target feature: real estate prices in King's County. 
+After applying data preparation and cleaning techniques in a Python notebook, I developed [Tableau dashboards](https://public.tableau.com/app/profile/guilherme.granja/viz/Airbnb_LisbonDashboard/Painel2?publish=yes) to provide the audience with a clear and straighforward overview of insightful aspects related to our Airbnb Lisbon's accommodation attributes and price. 
 
-No spoiler needed - just take a look and [explore it for yourself](https://public.tableau.com/views/Book1_17325726562400/PriceForecasters?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+#### *Exploratory Data Analaysis* 
+
+The EDA process included the following key tasks:
+
+- Correlation Analysis: An overview of relationships between continuous variables, supported by heatmap and scatterplot visualizations;
+- Categorical Variable Insights: Chi-square tests and interpretation of Cramér's V results to evaluate relationships between categorical variables;
+- Hypothesis Testing: Assessing assumptions and drawing conclusions about the data;
+- Distribution and Outlier Analysis: Examining variable distributions and identifying potential outliers.
 
 #### *Supervised Machine Learning - Regression Models* 🦾 📈
 
-Keeping in mind that our target feature is price, the machine learning process was divided into four distinct perspectives:
+Keeping in mind that our target feature is listing price, the machine learning process consisted in first applying 4 different supervised models (Linear, Decision Tree, XGboost and Random Forest) and finally fine-tuning the Random Forest model using the GridSearch hyperparameter tuning.
 
-**1.** Applying six different supervised models (Linear, Lasso, Ridge, Decision Tree, KNN, XGboost) while keeping all the 20 dataset features;
-
-**2.** Applying the same six supervised models (Linear, Lasso, Ridge, Decision Tree, KNN, XGboost) while dropping dataset features based only on histogram insights;
-
-**3.** Applying the Linear Regression supervised model while dropping dataset features after addressing multicollinearity and outliers;
-
-**4.** Fine-tuning the XGboost supervised model applied to all dataset features using the GridSearch hyperparameter tuning. 
-
-As a final step, we calculated and compiled four different metrics (R2, RMSE, MSE and MAE) for each one of the fourteen models, to facilitate the comparison of their fitness and predictive capacity. 
+As a final step, we calculated and compiled four different metrics (R2, RMSE, MSE and MAE) for each one of the 5 models, to facilitate the comparison of their fitness and predictive capacity, and retrieved Random Forest model feature importances.
 
 #### *Presentation* 🎬
 
-For a summarized overview of the project feel free to access the [Canva presentation](https://www.canva.com/design/DAGXtYJOijc/vAH_wwsND7MN5hUE9gookQ/edit?utm_content=DAGXtYJOijc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+For a summarized overview of the project feel free to access the [Canva presentation](https://www.canva.com/design/DAGZwQ0h0Ks/_MAlrqxrBO8fKFr7Jmxozg/edit).
+
 ## *Final Remarks* ✏
 
 Special thanks to my teachers, Isidre and Nicolas, for all the support and feedback.

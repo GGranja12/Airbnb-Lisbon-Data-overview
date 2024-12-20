@@ -43,7 +43,7 @@ This [Trello board](https://trello.com/b/DUtscQkn/ironhack-midproject) provides 
 
 After applying data preparation and cleaning techniques in a Python notebook, I developed [Tableau dashboards](https://public.tableau.com/app/profile/guilherme.granja/viz/Airbnb_LisbonDashboard/Painel2?publish=yes) to provide the audience with a clear and straighforward overview of insightful aspects related to our Airbnb Lisbon's accommodation attributes and price. 
 
-#### *Exploratory Data Analaysis* 
+#### *Exploratory Data Analysis* 
 
 The EDA process included the following key tasks:
 

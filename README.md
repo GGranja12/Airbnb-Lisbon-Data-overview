@@ -11,7 +11,9 @@ This mid-project was developed during Ironhack's Data Analytics course, aiming t
 
 ## *The Dataset* 🗃
 
-The data 
+The data was retrieved from 2 different csv. files (lisbon_weekdays.csv and lisbon_weekends.csv) which can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/thedevastator/airbnb-price-determinants-in-europe?select=lisbon_weekdays.csv) The Airbnb listings were originally webscrapped by Kristóf Gyódi and Łukasz Nawaro to develop their paper ["_Determinants of Airbnb prices in European cities: A spatial econometrics approach_"](https://www.sciencedirect.com/science/article/pii/S0261517721000388?via%3Dihub).
+
+Show more
 
 The csv. file can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/minasameh55/king-country-houses-aa).
 

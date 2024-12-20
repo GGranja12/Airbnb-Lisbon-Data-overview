@@ -13,39 +13,31 @@ This mid-project was developed during Ironhack's Data Analytics course, aiming t
 
 The data was retrieved from 2 different csv. files (lisbon_weekdays.csv and lisbon_weekends.csv) which can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/thedevastator/airbnb-price-determinants-in-europe?select=lisbon_weekdays.csv) The Airbnb listings were originally webscrapped by Kristóf Gyódi and Łukasz Nawaro to develop their paper ["_Determinants of Airbnb prices in European cities: A spatial econometrics approach_"](https://www.sciencedirect.com/science/article/pii/S0261517721000388?via%3Dihub).
 
-Show more
+The provided csv. files comprise 2019 data of Airbnb listings available in Lisbon, either respective to weekday bookings (Tuesday-Thursday; lisbon_weekdays.csv) or to weekend bookings (Friday-Sunday; lisbon_weekdends.csv). Both files present one listing price column and 18 attributes as follows:
 
-The csv. file can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/minasameh55/king-country-houses-aa).
+- **realSum**: the full price of accommodation for two people and two nights in EUR
+- **room_type**: the type of the accommodation
+- **room_shared**: dummy variable for shared rooms 
+- **room_private**: dummy variable for private rooms
+- **person_capacity**: maximum number of guests
+- **host_is_superhost**: dummy variable for superhost status
+- **multi**: dummy for listings offered by hosts with 2–4 listings
+- **biz**: dummy for listings offered by hosts with more than 4 listings
+- **cleanliness_rating**: cleanliness rating
+- **guest_satisfaction_overall**: overall rating of the listing (scale to 100)
+- **bedrooms**: number of bedrooms (0 for studios)
+- **dist**: distance to the city centre in km
+- **metro_dist**: distance from nearest metro station in km
+- **attr_index**: attraction index of the listing location
+- **attr_index_norm**: normalised attraction index (0-100)
+- **rest_index**: restaurant index of the listing location
+- **rest_index_norm**: normalised restaurant index (0-100)
+- **lng**: longitude of the listing location
+- **lat**: latitude of the listing location
 
-The provided dataset comprises one-year data (from May 2014 to May 2015) of house sale prices across King County, including Seattle, in the Washington State. It features 21 different columns, providing a comprehensive overview of the real estate market:
+## *Project Development* 
 
-- **id**: A unique identifier for a house.
-- **date**: The date on which the house was sold.
-- **price**: The sale price of the house (**prediction target**).
-- **bedrooms**: Number of bedrooms in the house.
-- **bathrooms**: Number of bathrooms in the house, per bedroom.
-- **sqft_living**: Square footage of the interior living space.
-- **sqft_lot**: Square footage of the land space.
-- **floors**: Number of floors (levels) in the house.
-- **waterfront**: Whether the house has a waterfront view.
-- **view**: Number of times the house has been viewed.
-- **condition**: The overall condition of the house.
-- **grade**: The overall grade given to the house, based on the King County grading system.
-- **sqft_above**: Square footage of the house apart from the basement.
-- **sqft_basement**: Square footage of the basement.
-- **yr_built**: The year the house was built.
-- **yr_renovated**: The year the house was renovated.
-- **zipcode**: ZIP code area.
-- **lat**: Latitude coordinate.
-- **long**: Longitude coordinate.
-- **sqft_living15**: The interior living space for the nearest 15 neighbors in 2015.
-- **sqft_lot15**: The land spaces for the nearest 15 neighbors in 2015.
-
-## *Quest Development* ⚙
-
-The flowchart below presents our project methodology, acting as a guide to structure and properly develop the objective proposed:
-
-![image](https://github.com/user-attachments/assets/5bc46c86-4d3e-4633-9e11-a0d20d47ed71)
+This [Trello board]([url](https://trello.com/b/DUtscQkn/ironhack-midproject)) provides access to the project's workflow, detailing all tasks developed over the three-week period.
 
 #### *Data Visualizations* 📊
 

@@ -35,7 +35,7 @@ The provided csv. files comprise 2019 data of Airbnb listings available in Lisbo
 - **lng**: longitude of the listing location
 - **lat**: latitude of the listing location
 
-## *Project Development* 
+## *Project Development* 🛠️
 
 This [Trello board](https://trello.com/b/DUtscQkn/ironhack-midproject) provides access to the project's workflow, detailing all tasks developed over the three-week period.
 

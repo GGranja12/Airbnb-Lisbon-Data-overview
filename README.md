@@ -3,13 +3,15 @@
 ![image](https://github.com/user-attachments/assets/5548fa82-4ff9-4b7a-a9d0-402844a64f89)
 
 
-## *Quest Overview* 📝
+## *Project Overview* 📝
 
-#### Welcome to our House Sale Prices Forecasting quest!
+#### Welcome to my Airbnb Lisbon's Listings Exploratory Data Analysis!
 
-This project was developed while attending Ironhack's Data Analytics course, with the main objective focused on consolidating our visualization and Python skills, as well as enhancing our knowledge of supervised machine learning through the development of predictive regression models to forecast real estate prices.
+This mid-project was developed during Ironhack's Data Analytics course, aiming to showcase and solidify the knowledge acquired over the past months. The project focuses on applying visualization and Python skills, exploratory data analysis techniques, and the development of machine learning models. 
 
 ## *The Dataset* 🗃
+
+The data 
 
 The csv. file can be downloaded by accessing this [Kaggle page](https://www.kaggle.com/datasets/minasameh55/king-country-houses-aa).
 
@@ -45,7 +47,7 @@ The flowchart below presents our project methodology, acting as a guide to struc
 
 #### *Data Visualizations* 📊
 
-After applying data preparation and cleaning techniques in a Python notebook we created Tableau dashboards to provide the audience with a clear and straighforward overview of insightful aspects related to our target feature: real estate prices in King's County. 
+After applying data preparation and cleaning techniques in a Python notebook I developed Tableau dashboards to provide the audience with a clear and straighforward overview of insightful aspects related to our target feature: real estate prices in King's County. 
 
 No spoiler needed - just take a look and [explore it for yourself](https://public.tableau.com/views/Book1_17325726562400/PriceForecasters?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
@@ -65,11 +67,7 @@ As a final step, we calculated and compiled four different metrics (R2, RMSE, MS
 
 #### *Presentation* 🎬
 
-For a summarized overview of the project feel free to access our [Canva presentation](https://www.canva.com/design/DAGXtYJOijc/vAH_wwsND7MN5hUE9gookQ/edit?utm_content=DAGXtYJOijc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+For a summarized overview of the project feel free to access the [Canva presentation](https://www.canva.com/design/DAGXtYJOijc/vAH_wwsND7MN5hUE9gookQ/edit?utm_content=DAGXtYJOijc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 ## *Final Remarks* ✏
 
-Special thanks to our teachers, Isidre and Nicolas, for all the support and feedback.
-
-## *Authors* 👥
-
-Inês Bettencourt, Jan Gfeller, Guilherme Granja, Oeendrila
+Special thanks to my teachers, Isidre and Nicolas, for all the support and feedback.
